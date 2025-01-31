@@ -46,6 +46,7 @@ function NavbarSection() {
             />
             <Button variant="outline-success">Search</Button>
           </Form>
+          <Nav.Link as={Link} to="/user" className={`mx-4 ${location.pathname === '/user' ? 'active fw-bold' : ''}`}>User</Nav.Link>
         </Navbar.Collapse>
       </Container>
     </Navbar>
